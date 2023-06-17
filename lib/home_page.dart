@@ -6,13 +6,13 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(),//AppBar
       body:Center(
         child: Center(
           child: Text("WELLCOME $name"),
         ),
       ),
-      drawer:const Drawer() ,
+      drawer:const Drawer() ,//Drawer
     );
   }
 }
